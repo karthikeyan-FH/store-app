@@ -1,38 +1,146 @@
-.App {
-  text-align: center;
-}
+.side
+{
+  width: 70%;
+  margin: 30px auto;
+  color: #5f677d;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.side-a
+{
+  width: 20%;
+  display: inline-block;
+  border: 1px solid #d8dae4;
+  background: #fff;
+  opacity: 1;
+  overflow-x: hidden;
+  transition: opacity,200ms,250ms,ease-in;
+  border-radius: 4px;
+  padding: 10px;
+  position: relative;
+  display: inline-block;
+  margin: 20px;
 }
+.search
+{
+  position: absolute;
+  border: none;
+  padding: 1px;
+}
+.checkbox-a
+{
+  display: block;
+  padding: 5px;
+}
+.checkbox-b
+{
+  display: block;
+  padding: 5px;
+}
+h4
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 5px;
+  padding: 10px;
+  border-top: 1px solid #EEE;
+  border-bottom: 1px solid white;
+}
+article
+{
+  margin-top: 5px;
+}
+.side-b
+{
+  font-size: 14px;
+  width: 70%;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+.data
+{
+  display: inline-block;
+  position: absolute;
+  margin: 20px;
+  padding: 10px;
+}
+.info{
+  width: 20%;
+  height: 330px;
+  background-color: white;
+  display: inline-block;
+  margin: 5px;
+  vertical-align: middle;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+p
+{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 100%;
+  
+  
+}
+.info:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.images
+{
+  width: 100%;
+  height: auto;
+}
+.mr-auto,.me-auto
+{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.main
+{
+  display: inline-block;
+}
+.storename
+{
+  float:left;
+  width:160px;
+  color: #5f677d;
+}
+.price
+{
+  float: right;
+  width:60px;
+  color:#ed3a5e;
+  font-weight: bold;
+}
+.name{
+      font-weight: bold;
+}
+.center
+{
+  margin-left: 20px;
+  color: #2aa67d;
+}
+.center:hover
+{
+  color:green
+}
+.button {
+  border: none;
   color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
 }
-
-.App-link {
-  color: #61dafb;
+.autocomplete:hover{
+  background-color: #6c7377;
+  color: #fff;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.autocomplete{
+  cursor: pointer;
+  border-bottom:1px solid grey;
+  border-left:1px solid grey;
+  border-right:1px solid grey;
+  border-top: 1px solid grey;
+  padding: 10px ;
 }
